@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="TestNG Session Suite" verbose="4">
+    <test name="Amazon Home Page Test">
+        <classes>
+            <class name="com.sk.tests.HomePageTest" />
+        </classes>
+    </test>
+    <test name="Amazon Login Page Test">
+        <classes>
+            <class name="com.sk.tests.LoginPageTest" />
+        </classes>
+    </test>
+</suite>

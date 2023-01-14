@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-01-14T09:49:46Z" name="TestNG Session Suite" finished-at="2023-01-14T09:50:19Z" duration-ms="32806">
+    <groups>
+    </groups>
+    <test started-at="2023-01-14T09:49:46Z" name="Amazon Home Page Test" finished-at="2023-01-14T09:50:09Z" duration-ms="22531">
+      <class name="com.sk.tests.HomePageTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.sk.tests.HomePageTest@69a10787]" started-at="2023-01-14T09:49:46Z" name="setup" finished-at="2023-01-14T09:50:08Z" duration-ms="22190" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verifyTitle()[pri:0, instance:com.sk.tests.HomePageTest@69a10787]" started-at="2023-01-14T09:50:08Z" name="verifyTitle" finished-at="2023-01-14T09:50:09Z" duration-ms="231" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyTitle -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.sk.tests.HomePageTest@69a10787]" started-at="2023-01-14T09:50:09Z" name="tearDown" finished-at="2023-01-14T09:50:09Z" duration-ms="97" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.sk.tests.HomePageTest -->
+    </test> <!-- Amazon Home Page Test -->
+    <test started-at="2023-01-14T09:49:46Z" name="Amazon Login Page Test" finished-at="2023-01-14T09:50:19Z" duration-ms="32806">
+      <class name="com.sk.tests.LoginPageTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.sk.tests.LoginPageTest@641147d0]" started-at="2023-01-14T09:49:46Z" name="setup" finished-at="2023-01-14T09:50:07Z" duration-ms="20961" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="loginPageSetup()[pri:0, instance:com.sk.tests.LoginPageTest@641147d0]" started-at="2023-01-14T09:50:07Z" name="loginPageSetup" finished-at="2023-01-14T09:50:10Z" depends-on-methods="com.sk.tests.BaseTest.setup" duration-ms="3372" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginPageSetup -->
+        <test-method signature="enterCredentials()[pri:0, instance:com.sk.tests.LoginPageTest@641147d0]" started-at="2023-01-14T09:50:10Z" name="enterCredentials" finished-at="2023-01-14T09:50:17Z" duration-ms="6695" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- enterCredentials -->
+        <test-method signature="loginPageUrlTest()[pri:0, instance:com.sk.tests.LoginPageTest@641147d0]" started-at="2023-01-14T09:50:17Z" name="loginPageUrlTest" finished-at="2023-01-14T09:50:19Z" duration-ms="1668" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginPageUrlTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.sk.tests.LoginPageTest@641147d0]" started-at="2023-01-14T09:50:19Z" name="tearDown" finished-at="2023-01-14T09:50:19Z" duration-ms="97" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.sk.tests.LoginPageTest -->
+    </test> <!-- Amazon Login Page Test -->
+  </suite> <!-- TestNG Session Suite -->
+</testng-results>

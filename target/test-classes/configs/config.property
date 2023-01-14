@@ -1,0 +1,5 @@
+browser = chrome
+url = https://www.amazon.in/
+
+username = test@gmail.com
+password = test123
